@@ -1,6 +1,3 @@
-<?php
-include('db.php');
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -725,23 +722,9 @@ E</h4>
                     </div>
                     
                     
-                    <input type="submit" name="sub" value="Send Now" class="btn btn-primary">	
+                    <input type="submit" method="POST" name="sub" value="Send Now" class="btn btn-primary">	
 				</form>
-				<?php
-				if(isset($_POST['sub']))
-				{
-					$name =$_POST['name'];
-					$phone = $_POST['phone'];
-					$email = $_POST['email'];
-					$approval = "Not Allowed";
-					$sql = "INSERT INTO `contact`(`fullname`, `phoneno`, `email`,`cdate`,`approval`) VALUES ('$name','$phone','$email',now(),'$approval')" ;
-					
-					
-					if(mysqli_query($con,$sql))
-					echo"OK";
-					
-				}
-				?>
+				
 			</div>
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile1" data-aos="flip-right">
