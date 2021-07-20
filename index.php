@@ -45,7 +45,7 @@ include('db.php');
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--iris">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Casa</a></li>
+							<li class="menu__item menu__item--current"><a href="admin/index1.html" class="menu__link">Casa</a></li>
 							<li class="menu__item"><a href="#about" class="menu__link scroll">Acerca de</a></li>
 							<li class="menu__item"><a href="#team" class="menu__link scroll">Equipo</a></li>
 							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Galería</a></li>
